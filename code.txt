@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class hamaarray {
+    public static void main(String[] args) {
+        Scanner x = new Scanner(System.in);
+        System.out.println("Chand pita nawakat?");
+        int Pit= x.nextInt();
+        char [] hama= new char[Pit];        
+        int r;
+        System.out.println("tkaya pitakany nawt daxl bka dana dana");        
+        for(r=0 ; r<hama.length ;r++ ){
+            char l = x.next().charAt(0);
+            hama[r]=l;
+        }
+        System.out.print("Nawt: ");
+         for(r=0 ; r<hama.length ; r=r+1)           
+        System.out.print(hama[r]);
+  }
+}
